@@ -128,3 +128,27 @@
 
 // Log the result
 // console.log('Language setting:', LANG);
+
+// 2. SET WEBSITE THEME
+
+// const userSavedTheme = "dark"; // Change to 'dark', 'contrast', etc., or keep it null
+
+// // a. Create a variable called USER_THEME
+// // b. Assign USER_THEME the value of userSavedTheme or 'light' as a default
+
+// // Your code here
+
+// const USER_THEME = userSavedTheme || `light`;
+
+// // Log the result
+// console.log("User theme setting:", USER_THEME);
+
+// Now check for `cat.age` on `adventurer`. See how it errors out? Use optional chaining in a console.log that it returns undefined instead.
+
+// const adventurer = {
+//   name: "Alice",
+// };
+
+// let cat = adventurer.cat?.name; // Your code here
+
+// console.log(cat);
