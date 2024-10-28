@@ -23,13 +23,22 @@
 
 // Given the following object, use destructuring to create variables `make` and `model` that will hold the respective values.
 
-const car = {
-  make: "Audi",
-  model: "q5",
-};
+// const car = {
+//   make: "Audi",
+//   model: "q5",
+// };
+
+// // Your code here
+
+// const { make, model } = car;
+// console.log(make);
+// console.log(model);
+
+// Duplicate the following array using the spread operator and assign it to `controversialPizzaToppings`. Then, log the variable.
+
+const pizzaToppings = ["Pineapple", "Olives", "Anchovies"];
 
 // Your code here
 
-const { make, model } = car;
-console.log(make);
-console.log(model);
+const controversialPizzaToppings = [...pizzaToppings];
+console.log(controversialPizzaToppings);
